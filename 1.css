@@ -1,0 +1,65 @@
+/* *{
+    margin: 0px auto;
+    padding: 10;
+}
+#main{
+
+    border: 2px solid rgb(15, 31, 15);
+} */
+
+#header{
+    background-color:#06C;
+    height: 60px;
+    padding: 3%;
+    margin: 15px;
+    color: white;
+    text-align: center;
+}
+#Navigation{
+    background-color: green;
+    height: 50px;
+    margin: 15px;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+#Banner{
+    background-color: #639;
+    height: 300px;
+    margin: 15px;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+
+#Boxleftsection{
+    background-color:#936 ;
+    height: 500px;
+    width: 79%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 0px;
+    float: left;
+    color: white;
+    text-align: center;
+    /* margin: 4px; */
+    padding: 0px;
+}
+#Boxrightsection{
+    background-color: #F96;
+    margin-top: 15px;
+    float: right;
+    height: 500px;
+    width: 20%;
+    color: white;
+    text-align: center;
+}
+#cle{
+    clear:both;
+}
+footer{
+    background-color: #639;
+    color: white;
+    text-align: center;   
+}

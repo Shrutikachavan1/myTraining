@@ -1,0 +1,132 @@
+#main{
+    margin: auto;
+}
+#header{
+    background-image: url("./Images/dark-grey-tile.png");
+    height: 150px;
+    border-radius: 10px;
+}
+#header h3{
+    color: white;
+    text-align: center; 
+    padding: 60px;
+}
+#Navigation{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1px;
+    text-align: center;
+}
+#Images{
+    background-color: blueviolet;
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+
+}
+#flexitem1{
+    background-image:url("./Images/logo.jpg");
+     align-items: flex-end;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 400px;
+    padding: 30px;
+}
+#Banner{
+    background-image: url("./Images/featured48@wdd2x.jpg");
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 10px;border-radius: 10px;
+
+}
+#Banner h3{
+    color: white;
+    text-align: center;   
+}
+#Boxleftsection{
+    background-color:#936 ;
+    height: 500px;
+    width: 79%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 0px;
+    float: left;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    /* margin: 4px; */
+    padding: 0px;
+}
+#Boxrightsection{
+    background-color: #F96;
+    margin-top: 15px;
+    float: right;
+    height: 500px;
+    width: 20%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+#cle{
+    clear:both;
+}
+#container{
+
+    margin-left: 10px;
+    margin-top:20px;
+    /* padding: 2%; */
+    display:flex;
+    height:300px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#fi{
+width:270px;
+/* margin-right:40px; */
+color: white;
+text-align: center;
+align-items: flex-end;
+border-radius: 50%;
+background-color: #06c;
+}
+#fi1{
+    width:270px;
+    color: white;
+    /* margin-right:30px; */
+    text-align: center;
+    border-radius: 50%;
+    align-items: flex-end;
+    background-color: #096;
+}
+#fi2{
+    width:270px;
+    color: white;
+    align-items: flex-end;
+    /* margin-right: 30px; */
+    text-align: center;
+    border-radius: 50%;
+    background-color: #936;
+}
+#fi3{
+    width:270px;
+    color: white;
+    align-items: flex-end;
+    /* margin-right: 30px; */
+    text-align: center;
+    border-radius: 50%;
+    background-color: #F96;
+}
+footer{
+    background-image: url("./Images/bg.gif");
+    color: white;
+    text-align: center;   
+    height: 60px;
+    border-radius: 10px;
+}
